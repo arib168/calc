@@ -4,7 +4,7 @@ st.set_option('deprecation.showfileUploaderEncoding', False)
 st.title("Basic Calculator")
 #a = st.sidebar.text_input("Enter first number")
 #b = st.sidebar.number_input("Enter first number")
-a = st.slider("Enter second number",0,100)
+a = st.slider("Enter first number",0,100)
 b = st.slider("Enter second number",0,100)
 select = st.selectbox("How would you like to do?",("Addition", "Subtraction","Multiplication","Division"))
 if select == "Addition":
